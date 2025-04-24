@@ -21,6 +21,7 @@
     - git push (Upload perubahan yang ada di locak repository ke remote repository)
     - git push -u origin [branch name] (Upload perubahan dan set default branch)
     - git push origin [branch name] (Upload perubahan ke spesifik branch tanpa merubah default branch)
+12. git clone (Mendownload repository remote ke repository local)
 
 ## Step buat GitHub Repository
 
@@ -39,3 +40,10 @@
    git remote add origin [link remote repository]
    git push -u origin main
    ```
+
+## Flow update repository
+
+1. Lakukan perubahan di dalam repository (add file / edit / delete)
+2. git add .
+3. gitt commit -m "[Commit message]"
+4. git push
