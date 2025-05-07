@@ -14,13 +14,15 @@ while (true) {
 }
 
 /* -------------------------------- CONTINUE -------------------------------- */
-let counter = 0;
+{
+  let counter = 0;
 
-while (counter < 5) {
-  counter++;
-  if (counter === 2) {
-    continue;
+  while (counter < 5) {
+    counter++;
+    if (counter === 2) {
+      continue;
+    }
+
+    console.log(counter);
   }
-
-  console.log(counter);
 }

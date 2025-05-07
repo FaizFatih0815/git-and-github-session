@@ -11,7 +11,7 @@
   //   let sliceResultThree = score.slice();
 
   /* -------------------------- REPLACE & REPLACE ALL ------------------------- */
-  let chat = "Hai, ini nomor telepondku +6282121869515";
+  let chat = "Hai, ini nomor teleponku +6282121869515";
   let replacePhonenumber1 = chat.replace("+620808080808", "****");
   let replacePhonenumber2 = chat.replace(/\+62\d{9,11}/, "****");
 
